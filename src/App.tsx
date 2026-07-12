@@ -3,6 +3,7 @@ import { invoke } from "@tauri-apps/api/core";
 // import "./App.css";
 import { CalendarProvider } from "./AppContext";
 import CalendarGrid from "./componets/CalendarGrid";
+import SideMenu from "./componets/SideMenu";
 import { MONTHS_NAMES } from "./constants/months";
 
 import Test from "./Test";
@@ -20,6 +21,7 @@ function App() {
     <main className="container">
       {/* <Test /> */}
       <CalendarProvider lang={'en'}>
+        <SideMenu />
         <div className="calendar-main">
           {
             months.map((month, idx)=>
