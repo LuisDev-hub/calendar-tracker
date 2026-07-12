@@ -21,6 +21,13 @@
   -webkit-text-size-adjust: 100%;
 }
 
+div {
+  border-color: #396cd8;
+}
+main {
+  border-color: brown;
+}
+
 .container {
   margin: 0;
   padding-top: 10vh;
